@@ -3,7 +3,7 @@ import copy
 
 def selection_sort(li):
     A = copy.deepcopy(li)
-    n = len(li)
+    n = len(A)
     i = 0
     if i < n:
         k = i
